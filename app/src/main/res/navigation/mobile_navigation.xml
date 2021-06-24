@@ -6,20 +6,20 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.convidados.ui.home.HomeFragment"
+        android:id="@+id/nav_all"
+        android:name="com.example.convidados.ui.allGuest.AllGuestFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.convidados.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_presents"
+        android:name="com.example.convidados.ui.present.PresentFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.convidados.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_absents"
+        android:name="com.example.convidados.ui.absent.AbsentFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>
